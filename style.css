@@ -1,0 +1,123 @@
+/* 'Open Sans',sans-serif; */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+.container{
+    width: 90%;
+    height: 100vh;
+    border: 1px solid #000;
+    position: relative;
+    top: 200px;
+    overflow: hidden;
+    background: #fff;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #456690;
+    padding: 18px;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.Logo{
+    font-family: 'Open Sans',sans-serif;
+    margin-left: -10px;
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+}
+#searchInput{
+    width: 600px;
+    margin-right: -900px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+
+}
+#searchInput:focus::placeholder{
+    color: #999999;
+}
+.btn{
+    width: 40px;
+    height: 34px;
+    position: relative;
+    background-color: #FFB55A;
+    left: 430px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 0px 3px 3px 0;
+    color: rgb(129, 126, 126);
+}
+::placeholder{
+    color: rgb(129, 126, 126);
+}
+.signUp{
+    width: 140px;
+    height: 38px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    left: 200px;
+}
+.signUp:hover{
+    box-shadow: inset 2px 2px yellow,
+    inset -2px -2px yellow
+}
+.musicElementImages{
+    width: 68%;
+    height: 100%;
+    border: 1px solid #000;
+    margin-top: 10px;
+}
+.musicElementImages .musicElement .img{
+    width: 130px;
+    height: 130px;
+    border: 1px solid #000;
+    position: relative;
+    top: 50px;
+    right: 428px;
+    margin: 15px;
+    cursor: pointer;
+}
+h2{
+    width: 400px;
+    height: 30px;
+}
+.texts{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+a{
+    width: 100px;
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    font-family: "robo" sans-serif;
+}
+.musicElement{
+    width: 97.7%;
+    height: 100%;
+    border: 1px solid #000;
+    display: flex;
+    margin: 20px;
+    justify-content: flex-start;
+    position: relative;    
+}
+.musicElementImages .img img{
+    width: 130px;
+    height: 130px;
+}
